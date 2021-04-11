@@ -1,0 +1,99 @@
+    body {
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url("images/photo1.png");
+        font-family: 'Fjalla One', sans-serif;
+    }
+    
+    .left img {
+        width: 125px;
+        filter: invert(100%);
+    }
+    
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: 20px;
+    }
+    
+    .mid {
+        display: block;
+        width: 33%;
+        margin: 0px auto;
+    }
+    
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+    }
+    
+    .navbar {
+        display: inline-block;
+    }
+    
+    .navbar li {
+        display: inline-block;
+        font-size: 15px;
+    }
+    
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 20px 15px;
+    }
+    
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+    }
+    
+    .btn {
+        font-family: 'Fjalla One', sans-serif;
+        margin: 0 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 14px;
+        cursor: pointer;
+    }
+    
+    .btn:hover {
+        background-color: rgb(29, 28, 28);
+    }
+    
+    .container {
+        border: 2px solid white;
+        margin: 133px 32px;
+        padding: 48px 34px;
+        width: 36%;
+        border-radius: 12px;
+    }
+    
+    .form-group input {
+        font-family: 'Fjalla One', sans-serif;
+        text-align: center;
+        display: block;
+        width: 266px;
+        padding: 9px;
+        border: 2px rgb(124, 106, 243);
+        margin: 8px auto;
+        border-radius: 12px;
+        font-size: 12px;
+    }
+    
+    .container h1 {
+        text-align: center;
+    }
+    
+    .container button {
+        display: block;
+        width: 23%;
+        margin: auto;
+    }
